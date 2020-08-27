@@ -12,6 +12,7 @@ import androidx.viewpager.widget.ViewPager;
 public class tournament extends AppCompatActivity {
 
     public final static int LOOPS = 1;
+
     public static int count;
     public static int FIRST_PAGE = 0;
     ViewPager pager;
