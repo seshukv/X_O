@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".tournament">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TableLayout
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/win"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vp">
+
+        <TableRow
+            android:id="@+id/tr1"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tr1v1"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr1v2"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr1v3"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="3"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr1v4"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="4"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr1v5"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="5"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr1v6"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr1v7"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="7"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr1v8"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="8"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr1v9"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="9"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tr2">
+
+            <TextView
+                android:id="@+id/tr2v1"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr2v2"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr2v3"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr2v4"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr2v5"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr2v6"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr2v7"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr2v8"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tr2v9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell"
+                android:fontFamily="sans-serif-light"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textFontWeight="@android:integer/config_shortAnimTime"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/win"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="X Won the Tornament"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="35sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/vi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv" />
+
+    <View
+        android:id="@+id/vi"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/win" />
+
+
+    <Button
+        android:id="@+id/lb1"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundbutt"
+        android:text="Previous Game"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vi" />
+
+    <Button
+        android:id="@+id/lb2"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundbutt"
+        android:text="Next Game"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vi" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
